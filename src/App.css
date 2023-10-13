@@ -1,0 +1,130 @@
+.home {
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ 
+.home h1 {
+   font-size: 10lvh;
+   position: relative;
+   top: 2px;
+}
+.home .home1 {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  height:50px;
+  width:180px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  
+}
+.home .about {
+  background-color: white;
+  margin-top: 90px;
+  margin-left: 40px;
+  height:50px;
+  width:180px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  position: relative;
+  bottom:40px;
+}
+.home .login {
+  background-color: white;
+  /* margin-top:10px; */
+  height:50px;
+  width:180px;
+  margin-left: 1000px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  position: relative;
+  top: -190px;
+  /* margin-bottom: 300px; */
+
+}
+.home .admin {
+  background-color:white;
+  margin-top: 0px;
+  height:50px;
+  width:180px;
+  margin-left: 1000px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top:-140px;
+}
+.about1 {
+  height: 130vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about1 #h11{
+  font-family:'Lucida Sans';
+  font-weight: bolder;
+  font-size: 600%;
+}
+label {
+   color: white;
+}
+.login .login1{
+  position: relative;
+  left: 0px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+.login .guest{
+  position: relative;
+  left: 80px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.csshobe{
+  padding:10px;
+  background-color:#050101 !important;
+   border:1px solid #000104;
+   margin-bottom:5px;
+   border-radius:10px;
+}
+.guest1 .s1{
+  border: none;
+  color: black;
+  border-radius: 5px;
+  margin: 1px 1px 1px 1px;
+}
+.login3 .login1{
+  position: relative;
+  top: 50px;
+  left: 0px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+}
+.login3 .guest{
+  background-color: cadetblue;
+  position: relative;
+  top:50px;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+}
